@@ -18,7 +18,7 @@
 
   --bg-light: hsl(180, 14%, 97%);
 
-  font-size: 62.5%; /* 1rem = 10px */
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
 
   --nav-height: 7.2rem;
 }
@@ -30,8 +30,8 @@ html {
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
